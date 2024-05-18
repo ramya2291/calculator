@@ -1,0 +1,75 @@
+body{
+   background-color: gray;
+}
+.container{
+   margin:auto;
+   width: 300px;
+   height:500px;
+   border: solid 0px black;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: darkslategray;
+   box-shadow:3px 3px 10px rgba(0,0,0,1),
+   -1px -1px 3px rgba(255, 255, 255, 0.4);
+}
+h1{
+   font-family: "Figtree", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   letter-spacing: 2px;
+   padding: 10px; 
+   background-color: rgb(224, 232, 200);
+   border-radius: 10px 10px 0px 0px;
+}
+.buttons{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 10px;
+   row-gap: 10px;
+   margin:30px;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: rgb(190, 191, 192);
+}
+.buttons button{
+   border-radius: 50%;
+   border:none;
+   background-color: darkslategray;
+   height: 50px;
+   width: 50px;
+   color: aliceblue;
+   font-size: 20px;
+   transition: all 0.1s ease;
+   text-align: center;
+   justify-content: center;
+   box-shadow: 0px 0px 5px gray;
+}
+#addbtn button,#subbtn button,#mtlbtn button,#divbtn button,#resbtn button{
+   background-color: rgb(78, 81, 81);
+}
+.buttons button:hover{
+   background-color: rgb(39, 59, 59);
+}
+.buttons button:active{
+   background-color: rgb(78, 97, 97);
+   font-size: 21px;
+}
+input{
+   text-align: right;
+   height: 30px;
+   width:220px;
+   border:none;
+   border-radius: 20px;
+   padding-right: 10px;
+   padding-left: 10px;
+   font-family: "Roboto Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 20px;
+   overflow-x:scroll;
+}
